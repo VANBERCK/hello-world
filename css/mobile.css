@@ -2,7 +2,6 @@
 </html>
 @media mobile{
 	max-width:480px;
-	-webkit-device-pixel-ratio:1;
 }
 
 img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
