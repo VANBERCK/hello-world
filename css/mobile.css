@@ -1,7 +1,7 @@
 <html manifest="*.appcache">
 </html>
 @media mobile{
-	max-width:480px;
+	max-width:48.0rem;
 }
 
 h1{
