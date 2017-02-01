@@ -13,6 +13,14 @@ para1{
  background-color:#3498db;
 }
 
+tr,td{
+ border:1px, solid, black;
+}
+
+#titre{
+ background-color: grey;
+}
+
 #IUT{
 width:30.0rem;
 display:block;
