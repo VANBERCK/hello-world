@@ -1,5 +1,14 @@
 <html manifest="*.appcache">
 </html>
+p{
+ font-size:1.6rem;
+}
+h1{
+ font-size:2.5rem;
+}
+h2{
+ font-size:2.0rem;
+}
 para1{
  background-color:#3498db;
 }
