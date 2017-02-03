@@ -14,12 +14,6 @@ img, table,tr, td, blockquote, code, pre, textarea, input, iframe, object, embed
 
 table,tr,thead, tbody,td{
 	display: block;
+	width: auto;
 }
 
-td{
-	position: relative;
-}
-
-td:before{
-	position:absolute;
-}
