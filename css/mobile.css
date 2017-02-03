@@ -13,9 +13,6 @@ img, table,tr, td, blockquote, code, pre, textarea, input, iframe, object, embed
 }
 table,tr,th,td{
 	display: block;
-}
-
-td{
-	position: relative;
+	overflow-x:auto;
 }
 
