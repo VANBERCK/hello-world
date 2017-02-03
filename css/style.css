@@ -1,5 +1,9 @@
-<html manifest="*.appcache">
-</html>
+body{
+ background-image: url(../img/bg.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
 p{
  font-size:1.6rem;
 }
@@ -22,14 +26,18 @@ th{
 }
 
 #IUT{
-width:30.0rem;
-display:block;
-margin-left:auto;
-margin-right:auto;
+ width:30.0rem;
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
 }
 
 @media screen and (max-width:480px){
 	max-width:48.0rem;
+
+	body{
+	background-position:center;
+	}
 
 	h1{
 	 font-size:8vw;
