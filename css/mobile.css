@@ -11,9 +11,11 @@ h1{
 img, table,tr, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
     max-width: 100%;
 }
-table,tr,td{
+table,tr,th,td{
 	display: block;
-	width:100%;
-	height: auto;
+}
+
+td{
+	position: relative;
 }
 
