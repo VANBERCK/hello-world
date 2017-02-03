@@ -8,10 +8,10 @@ h1{
  font-size:8vw;
 }
 
-img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+img, table,tr, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
     max-width: 100%;
 }
-table{
+table,tr,td{
 	display: block;
 	width:100%;
 	height: auto;
