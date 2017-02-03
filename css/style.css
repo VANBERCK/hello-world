@@ -17,7 +17,7 @@ table,th,tr,td{
  border:1px solid black;
 }
 
-#titre{
+th{
  background-color: lightgrey;
 }
 
@@ -27,3 +27,32 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
+
+@media screen and (max-width:480px){
+	max-width:48.0rem;
+
+	h1{
+	 font-size:8vw;
+	}
+	
+	img, table,tr, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+	    max-width: 100%;
+	}
+	
+	table{
+		width: 100%;
+		margin: 0px;	
+	}
+	
+	tr{
+		display:block;
+		height: auto;
+		width: 100%;
+	}
+	
+	td, th{
+		display: block;
+		width: 100%;
+	}
+}
+

@@ -12,8 +12,19 @@ img, table,tr, td, blockquote, code, pre, textarea, input, iframe, object, embed
     max-width: 100%;
 }
 
-td{
-	display: inline-block;
-	width: auto;
+table{
+	width: 100%;
+	margin: 0px;	
+}
+
+tr{
+	display:block;
+	height: auto;
+	width: 100%;
+}
+
+td, th{
+	display: block;
+	width: 100%;
 }
 
