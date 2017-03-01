@@ -51,13 +51,14 @@ ul{
 }
 
 /*****Image background*****/
-#image{
+#imageback{
 	margin-top:1.0rem;
 	background-image: url("../img/Mercy.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
-	height:25.0rem;
+	height:30.0rem;
 	padding-top:1.0rem;
+	background-position:center center;
 }
 
 /****Competences****/
@@ -158,19 +159,17 @@ ul{
 	p{
 		font-size:0.9rem;
 	}
-	
 	h1{
 		font-size:2.0rem;
 	}
-	
 	#titre{
 		font-size:0.9rem;
 	}
+	
 	/*****centrer le Logo et le menu****/	
 	#case{
 		text-align:center;
 	}
-	
 	#LogoMercy, #case{
 		position:relative;
 		margin-left:auto;
@@ -185,17 +184,30 @@ ul{
 		visibility:hidden;
 	}
 
-	/*****Réarrangement du Formulaire*****/
-	
+	/*****Réarrangement du Formulaire*****/	
 	#prenom, #nom, #ville, #date,#message, #mail, #photo{
 		display:block;
 		width:100%;
 		float:none;
 	}
+
 }
 
 /*****Responsive Smartphone****/
 @media screen and (max-width:480px){
 	max-width:48.0rem;
 	
+	#competence1, #competence2, #competence3, #competence4{
+		display:block;
+		margin-left:5.0rem;
+		margin-right:6.0rem;;
+	}
+	
+	#geo, #form{
+		display:block;
+		width:100%;
+	}
+	#geo{
+		border:none;
+	}
 }
