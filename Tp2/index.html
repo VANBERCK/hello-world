@@ -4,30 +4,81 @@
 	<meta charset="utf-8">
 	<title>Mercy Overwatch</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="img/LogoMercy.jpg">
+	<link rel="icon" href="img/LogoMercy.png">
 
 </head>
 <body>
 <div id="header">
-	<img src="img/LogoMercy.jpg" alt="Logo" id="LogoMercy"/>
+	<img src="img/LogoMercy.png" alt="Logo" id="LogoMercy"/>
+	<img src="img/HeroesNeverDie.png" alt="Heroes Never Die" id="HND"/>
 	<div id="case">
 		<a id="Accueil" href="">Accueil</a>
 		<a id="Heros" href="">Héros</a>
 		<a id="Contact" href="">Contact</a>
+		<form action="" class="formulaire">
+			<input class="champ" type="text" value="Search..."/>
+			<input class="bouton" type="button" value="Ok"/>
+		</form>	
+	</div>
 	
 </div>
-<img src="img/Mercy.jpg" alt="Mercy" id="Mercy"/>
+<div id="image">
+<!--<img src="img/Mercy.jpg" alt="Mercy" id="Mercy"/>-->
+</div>
 <h1>Biographie</h1>
 <p>Véritable ange gardien pour ceux qu’elle prend en charge, le docteur Angela Ziegler est une soignante hors pair, une scientifique brillante et une fervente partisane de la paix.<br>
 Ziegler a gravi les échelons jusqu’à la direction du service de chirurgie d’un grand hôpital suisse avant de lancer une percée révolutionnaire dans le domaine des nanotechnologies appliquées qui a amélioré de façon radicale le traitement des maladies et des traumatismes potentiellement mortels. C’est grâce à ce domaine d’expertise qu’elle a attiré l’attention d’Overwatch.<br>
 Privée de ses parents par la guerre, Angela Ziegler était opposée à l’approche militariste de l’organisation dans le maintien de la paix mondiale. Mais elle finit par reconnaître qu’Overwatch lui offrait l’opportunité de sauver des vies à bien plus grande échelle. En devenant responsable de la recherche médicale d’Overwatch, Angela cherchait à optimiser l’application de ses travaux pour dispenser des soins sur le terrain dans les situations de crise. Ses recherches se concrétisèrent sous la forme de l’armure de traitement des urgences Valkyrie, qu’elle pilota elle-même lors de nombreuses missions d’Overwatch.<br>
 Malgré ses contributions significatives, elle était fréquemment en désaccord avec ses supérieurs et les objectifs globaux de l’organisation. Après la dissolution d’Overwatch, Ziegler put se consacrer à apporter de l’aide aux victimes de guerre.<br>
 Même si elle passe maintenant l’essentiel de son temps à soigner les victimes et les réfugiés dans les zones de crise aux quatre coins du globe, on peut encore compter sur le Dr Ziegler et sur son armure Valkyrie quand des innocents sont en péril.<br></p>
-<div id="Competences">
-	<img src="img/Caducee.png" alt="Le Caducée" id="Arme1"/>
-	<img src="img/Misericorde.png" alt="Le Miséricorde" id="Arme2"/>
-	<img src="img/Ange.png" alt="Ange Gardien" id="Ange"/>
-	<img src="img/Ultimate.png" alt="Résurrection" id="Ulti"/>
+<div id="competences">
+	<ul id="competence1">
+		<li><img src="img/Caducee.png" alt="Le Caducée" id="Arme1"/></li>
+		<li><h2 id="cad">Caducée</h2></li>
+		<li><p id="Dcad">Ange projette un des deux rayons sur un allié. En maintenant les rayons, elle peut soigner l’allié ciblé ou augmenter les dégâts qu’il inflige.</p></li>	
+	</ul>
+
+	<ul id="competence2">
+		<li><img src="img/Misericorde.png" alt="Le Miséricorde" id="Arme2"/></li>		
+		<li><h2 id="mis">Miséricorde</h2></li>
+		<li><p id="Dmis">Ange peut tirer avec cette arme de poing, qu’il vaut mieux conserver pour sa protection personnelle.</p></li>		
+	</ul>
+	<ul id="competence3">
+		<li><img src="img/Ange.png" alt="Ange Gardien" id="Ange"/></li>
+		<li><h2 id="ang">Ange Gardien</h2></li>		
+		<li><p id="Dang">Ange vole vers un allié ciblé. Elle peut ainsi rejoindre rapidement ses coéquipiers pour mieux les assister dans les moments cruciaux.</p></li>
+	</ul>
+	<ul id="competence4">
+		<li><img src="img/Ultimate.png" alt="Résurrection" id="Ulti"/></li>	
+		<li><h2 id="res">Résurrection</h2></li>
+		<li><p id="Dres">Ange irradie de puissance restauratrice et ranime les alliés morts autour d’elle avec la totalité de leurs points de vie.</p></li>
+		</ul>
+</div>
+<div id="part2">
+	<ul id="geo">
+		<li id="titre"><h2>Origine Géographique:</h2></li>
+		<li id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86456.59681306228!2d8.466675111470304!3d47.37743366900345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2sZurich%2C+Suisse!5e0!3m2!1sfr!2sfr!4v1486731396098" width="100%" height=auto frameborder="0" style="border:0" allowfullscreen></iframe>
+		</li>		
+	</ul>
+	<ul id="form">
+		<li id="titre"><h2>Vous avez besoin d'un Docteur?:</h2></li>	
+		<li id="formulaire">
+			<form method="post">
+				<input type="text" name="Prenom" id="prenom" placeholder="Prénom"/>
+				<input type="text" name="Nom" id="nom" placeholder="Nom"/>
+				<input type="date" name="Date" id="date"placeholder="Date de Naissance"/>
+				<input type="text" name="Ville" id="ville" placeholder="Ville de Naissance"/>
+				<input type="mail" name="Mail" id="mail" placeholder="Adresse Mail"/>
+				<input type="file" name="fichier" id="photo"/>
+				<textarea name="Message" id="message" placeholder="Votre Message..."></textarea>
+				<input type="image" src="img/Wings.png"	name="Ok" id="ok"/>
+			</form>
+		</li>
+	</ul>
+</div>
+<div id="footer">
+	<p>CARON Jean Tpc</p>
 </div>
 </body>
 </html>

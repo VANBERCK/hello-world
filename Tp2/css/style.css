@@ -1,0 +1,180 @@
+body{
+	background-color:#FCBD49;
+}
+
+p{
+	text-align:justify;
+	font-size:1.1rem;
+}
+
+h1{
+	font-size:2.5rem;
+}
+
+ul{
+	list-style:none;
+}
+
+#header{
+	padding-bottom:1.0rem;
+	border-bottom:0.1rem solid black;
+}
+
+/*****Logo du Site*****/
+#LogoMercy{
+	display:block;
+	position:absolute;
+	width:7.0rem;
+	float:left;
+}
+
+/****titre du site*****/
+#HND{
+	display:block;
+	width:20.0rem;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0rem;
+}
+
+/*****Menu*****/
+#case{
+	display:inline-block; 	
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:right;
+}
+.formulaire{
+	display: inline-block;
+}
+.formulaire.champ{
+	width:60.0rem;
+	height:3.5rem;
+}
+
+/*****Image background*****/
+#image{
+	margin-top:1.0rem;
+	background-image: url("../img/Mercy.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:25.0rem;
+	padding-top:1.0rem;
+}
+
+/*#Mercy{
+	padding-top:1.0rem;
+	padding-bottom:1.0rem;
+	max-width:100%;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;	
+}*/
+
+/****Competences****/
+#competences{
+	width:100%;
+	margin-bottom:5.0rem;
+}
+
+#competence1, #competence2, #competence3, #competence4{
+	display:inline-block;
+	text-align:center;
+	margin-left:6.0rem;
+	margin-right:5.0rem;
+	vertical-align:middle;
+	padding:0.0rem;;
+}
+
+#Arme1, #Arme2, #Ange, #Ulti{
+	width:7.0rem;
+}
+
+#Arme1{
+	margin-top:2.5rem;
+}
+
+#cad, #mis, #ang, #res{
+	color:#3d3b3f;
+	width:8.0rem;
+}
+
+#Dcad, #Dmis, #Dang, #Dres{
+	width:9.0rem;
+	text-align:center;
+}
+/*****Origine Géo+Formulaire*****/
+#part2{
+	width:100%;
+}
+
+#geo, #form{
+	display:inline-block;
+	margin:0.0rem;
+	padding:0.0rem;
+	width:45%;
+}
+#geo{
+	border-right: 0.1rem solid black;
+}
+
+#titre{
+	text-align:left;
+}
+
+#map{
+	display:block;
+	padding-left:1.0rem;
+	padding-right:1.0rem;
+	
+}
+
+/*****Formulaire*****/
+#prenom, #nom, #ville, #date,#message, #mail, #photo{
+	margin-bottom:0.3rem;
+	margin-top:0.3rem;
+}
+/*#prenom, #date{
+	margin-right:4.0rem;
+}*/
+
+#prenom,#nom{
+	display:inline-block;
+}
+
+#ville, #date{
+	display:inline-block;
+}
+
+#prenom, #date{
+	width:40%;
+	float:left;
+}
+
+#nom, #ville{
+	width:40%;
+	float:right;
+}
+
+#message, #mail, #photo{
+	width:100%;
+	height:auto;
+}
+
+#ok{
+	float:right;
+	width:5.0rem;
+}
+
+/*****Footer*****/
+#footer{
+	border-top:0.1rem solid black;
+}
+
+#footer p{
+	float:right;
+	padding-right:1.5rem;
+}
+/*#FCBD49=couleur jaune owervatch*/
